@@ -1,0 +1,23 @@
+{
+  "name": "vegitracker",
+  "version": "1.0.0",
+  "description": "Simple CLI to display recent activity of a GitHub user",
+  "homepage": "https://github.com/Antelmo7/github-user-activity-cli#readme",
+  "bugs": {
+    "url": "https://github.com/Antelmo7/github-user-activity-cli/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Antelmo7/github-user-activity-cli.git"
+  },
+  "license": "MIT",
+  "author": "Antelmo Verdugo <antelmoverdugo@gmail.com>",
+  "type": "module",
+  "main": "./src/index.js",
+  "bin": {
+    "vegitracker": "./src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
